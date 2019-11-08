@@ -46,7 +46,6 @@
 # yad --info --text="Die Eingabe war $eingabe"
 
 
-
 default_jpg='/media/stvn/Elements/Projekte/We dont die we multiply/Lumpenprolet/Das Kapital/Prozess/B1A1K1-1.jpg';
 default_mp3='/media/stvn/Elements/Projekte/We dont die we multiply/Lumpenprolet/Das Kapital/Prozess/B1A1K1-1.mp3';
 default_resolution='1920:1080';
