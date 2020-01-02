@@ -1,5 +1,5 @@
 # nautilus-scripts
-personal collection of useful shell scripts to expand nautilus context menu
+personal collection of shell scripts to expand nautilus context menu
 
-# Vorrausetzungen
-sudo apt-get install yad
+## installation
+install in directory /home/__YOUR_NAME__/.local/share/nautilus/scripts
