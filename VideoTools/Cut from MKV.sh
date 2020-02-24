@@ -2,10 +2,7 @@
 
 INPUT="$(basename "${NAUTILUS_SCRIPT_SELECTED_FILE_PATHS}")"
 
-FORM=$( zenity --forms \
-  --title="Cut Part from MP4" \
-  --separator="," \
-  --text="Cut Part from MP4" \
+FORM=$( zenity --forms --title="Cut Part from MKV" --separator="," --text="Cut Part from MKV" \
   --add-entry="Startpoint (hh:mm:ss)" \
   --add-entry="Endpoint (hh:mm:ss)" \
   --add-entry="Name of Output File")
