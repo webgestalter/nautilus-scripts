@@ -1,7 +1,7 @@
 #!/bin/bash
 
- INPUT="$(basename "${NAUTILUS_SCRIPT_SELECTED_FILE_PATHS}")"
-OUTPUT=$( zenity --entry="" --title="VOB to MKV" --text="Name of Output File" )
+INPUT="$(basename "${NAUTILUS_SCRIPT_SELECTED_FILE_PATHS}")"
+OUTPUT=$( zenity --entry="" --title="Convert VOB to MKV" --text="Name of Output File" )
 
 ffmpeg \
   -analyzeduration 100M -probesize 100M \
