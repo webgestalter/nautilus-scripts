@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 INPUT="$(basename "${NAUTILUS_SCRIPT_SELECTED_FILE_PATHS}")"
 NAME=$( zenity --entry="" --title="Set Aspect Ratio" --text="Name of Output File" )
 
